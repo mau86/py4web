@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Massimo DiPierro
+# This file is distributed under the same license as the py4web package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: py4web\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-02 22:29+0100\n"
+"PO-Revision-Date: 2020-11-21 15:36+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: ../../chapter-00.rst:2
+msgid "What is py4web?"
+msgstr "Che cos'è py4web?"
+
+#: ../../chapter-00.rst:4
+msgid "PY4WEB is a web framework for rapid development of efficient database driven web applications. It is an evolution of the popular web2py framework but much faster and slicker. Its internal design has been much simplified compared to web2py."
+msgstr "PY4WEB è un framework web per lo sviluppo rapido di applicazioni web efficienti basate su database. Si tratta di un'evoluzione del popolare framework web2py, ma molto più veloce e fluido. Il suo design interno è stato molto semplificato rispetto a web2py."
+
+#: ../../chapter-00.rst:9
+msgid "PY4WEB can be seen as a competitor of other frameworks like Django or Flask, and it can indeed serve the same purpose. Yet PY4WEB aims to provide a larger feature set out of the box and reduce the development time of new apps."
+msgstr "PY4WEB può essere visto come un concorrente di altri frameworks come Django o Flask, e può effettivamente servire allo stesso scopo. Eppure PY4WEB mira a fornire un insieme di caratteristiche chiavi in mano e a ridurre i tempi di sviluppo di nuove applicazioni."
+
+#: ../../chapter-00.rst:14
+msgid ""
+"From a historical perspective our story starts in 2007 when web2py was first released. web2py was designed to provide an all-inclusive solution for web development: one zip file containing the Python interpreter, the framework, a web based IDE, and a collection of battle-"
+"tested packages that work well together. In many ways web2py has been immensely successful. Web2py succeeded in providing a low barrier of entry for new developers, a very secure development platform, and remains backwards compatible until today."
+msgstr ""
+"Da un punto di vista storico la nostra storia inizia nel 2007 quando web2py è stato rilasciato per la prima volta. web2py è stato progettato per fornire una soluzione \"tutto-incluso\" per lo sviluppo web: un file zip contenente l'interprete Python, il framework, un IDE "
+"basato sul web e una raccolta di pacchetti testati sul campo che funzionano bene insieme. Per molti versi web2py ha avuto un enorme successo. Web2py è riuscito a fornire una bassa barriera di ingresso per i nuovi sviluppatori, una piattaforma di sviluppo molto sicura, e "
+"rimane compatibile con le versioni precedenti fino ad oggi."
+
+#: ../../chapter-00.rst:23
+msgid ""
+"Web2py always suffered from one problem: its monolithic design. The most experienced Python developers did not understand how to use its components outside of the framework and how to use third party components within the framework. This was for good reason, as we did not "
+"care too much about them. We thought of web2py as a perfect tool that did not have to be broken into pieces because that would compromise its security. It turned out that we were wrong, and playing well with others is important. Hence, in the last two years we worked on "
+"three fronts:"
+msgstr ""
+"Web2py ha sempre sofferto di un problema: il suo design monolitico. Gli sviluppatori Python più esperti non capivano come utilizzare i suoi componenti al di fuori del framework e come usare componenti di terze parti dentro il framework. C'era una buona ragione per questo: "
+"non ci preoccupavamo troppo di loro. Pensavamo a web2py come ad uno strumento perfetto che non doveva essere fatto a pezzi perché ciò avrebbe compromesso la sua sicurezza. Risultò che ci sbagliavamo, e che giocare bene con gli altri è importante. Perciò, negli ultimi due "
+"anni abbiamo lavorato su tre fronti:"
+
+#: ../../chapter-00.rst:32
+msgid "We ported web2py to Python 3."
+msgstr "Abbiamo fatto il porting di web2py a Python 3."
+
+#: ../../chapter-00.rst:33
+msgid "We broke web2py into modules that can be used independently."
+msgstr "Abbiamo suddiviso web2py in moduli che possono essere utilizzati indipendentemente."
+
+#: ../../chapter-00.rst:34
+msgid "We reassembled some of those modules into a new more modular framework … PY4WEB."
+msgstr "Abbiamo riassemblato alcuni di quei moduli in un nuovo framework più modulare… PY4WEB."
+
+#: ../../chapter-00.rst:37
+msgid ""
+"PY4WEB is more than a repackaging of those modules. It is a complete redesign. It uses some of the web2py modules, but not all of them. In some cases, it uses other and better modules. Some functionality was removed and some was added. We tried to preserve most of the "
+"syntax and features that experienced web2py users loved. Here is a more explicit list:"
+msgstr ""
+"PY4WEB è più di un repackaging di quei moduli. Si tratta di una completa riprogettazione. Utilizza alcuni dei moduli di web2py, ma non tutti. In alcuni casi, utilizza altri, migliori, moduli. Alcune funzionalità sono state rimosse ed alcune aggiunte. Abbiamo tentato di "
+"preservare la maggior parte della sintassi e delle caratteristiche che gli utenti esperti amavano: Ecco una lista esplicita:"
+
+#: ../../chapter-00.rst:44
+msgid "PY4WEB, unlike web2py, requires Python 3."
+msgstr "PY4WEB, a differenza di web2py, richiede Python 3."
+
+#: ../../chapter-00.rst:45
+msgid "PY4WEB, unlike web2py, can be installed using pip and its dependencies are managed using requirements.txt."
+msgstr "PY4WEB, a differenza di web2py, può essere installato utilizzando pip e le sue dipendenze sono gestite usando requirements.txt."
+
+#: ../../chapter-00.rst:47
+msgid "PY4WEB apps are regular Python modules. This is very different to web2py. In particular, we ditched the custom importer, and we rely now exclusively on the regular Python import mechanism."
+msgstr "Le app di PY4WEB sono normali moduli di Python. Questo è molto diverso da web2py. In particolare, abbiamo eliminato l'importer che avevamo realizzato su misura, e ora ci appoggiamo esclusivamente al normale meccanismo di importazione di Python."
+
+#: ../../chapter-00.rst:50
+msgid "PY4WEB, like web2py, can serve multiple applications concurrently, as long as the apps are submodules of the apps module."
+msgstr "PY4WEB, come web2py, può servire multiple applicazioni contestualmente, finché le app sono sottomoduli del nodulo apps."
+
+#: ../../chapter-00.rst:52
+msgid "PY4WEB, unlike web2py, is based on bottlepy and in particular uses the Bottle request object and the Bottle routing mechanism."
+msgstr "PY4WEB, a differenza di web2py, è basato su bottlepy e in particolare usa l'oggetto request di Bottle e il meccanismo di routing di Bottle."
+
+#: ../../chapter-00.rst:54
+msgid "PY4WEB, unlike web2py, does not create a new environment at every request. It introduces the concept of fixtures to explicitly declare which objects need to be re-initialized when a new http request is processed. This makes it much faster."
+msgstr ""
+"PY4WEB, a differenza di web2py, non crea un nuovo ambiente ad ogni richiesta. Introduce il concetto di fixture per dichiarare esplicitamente quali oggetti hanno bisogno di essere reinizializzati quando una nuova richiesta http viene processata. Questo lo rende molto più "
+"veloce."
+
+#: ../../chapter-00.rst:58
+msgid ""
+"PY4WEB, has a new sesson object which, like web2py’s, provides strong security and encryption of the session data, but sessions are no longer stored in the file system - which created performance issues. It provides sessions in cookies, in redis, in memcache, or in "
+"database. We also limited session data to objects that are json serializable."
+msgstr ""
+"PY4WEB ha un nuovo oggetto sessione che, come quello di web2py, fornisce forte sicurezza e cifratura dei dati della sessione, ma le sessioni non sono più salvate nel file system - il che creava problemi di prestazioni. Fornisce sessioni in cookies, in redis, in memcache o "
+"nel database. Abbiamo anche limitato i dati della sessione ad oggetti che siano serializzabili in json."
+
+#: ../../chapter-00.rst:64
+msgid "PY4WEB, like web2py, has a built-in ticketing system but, unlike web2py, this system is global and not per app. Tickets are no longer stored in the filesystem with the individual apps. They are stored in a single database."
+msgstr "PY4WEB, come web2py, ha in sistema di ticketing integrato ma, a differenza di web2py, il sistema è globale e non per app. I tickets non sono più salvati nel filesystem con le singole app. Sono salvati in un unico database."
+
+#: ../../chapter-00.rst:68
+msgid "PY4WEB, like web2py, is based on pydal but uses some new features of pydal (RESTAPI)."
+msgstr "PY4WEB, come web2py, è basato su pydal ma utilizza alcune nuove caratteristiche di pydal (RESTAPI)."
+
+#: ../../chapter-00.rst:70
+msgid "PY4WEB, like web2py, uses the yatl template language but defaults to square brackets delimiters to avoid conflicts with model JS frameworks, such as Vue.js and angular.js. Yatl includes a subset of the web2py helpers."
+msgstr "PY4WEB, come web2py, usa il linguaggio di templating yatl ma ha come delimitatori di default le parentesi quadre per evitare conflitti con i framework JS, come Vue.js e angular.js. YATL include un sottoinsieme degli helper di web2py."
+
+#: ../../chapter-00.rst:74
+msgid "PY4WEB, unlike web2py, uses the pluralization library for internationalization. In practice, this exposes an object T very similar to web2py’s T but it provides better caching and more flexible pluralization capabilities."
+msgstr "PY4WEB, a differenza di web2py, usa la libreria di pluralizzazione per l'internazionalizzazione. In pratica, questa espone un oggetto T molto simile a quello di web2py ma fornisce migliore caching e capacità di pluralizzazione più flessibili."
+
+#: ../../chapter-00.rst:78
+msgid "PY4WEB comes with a Dashboard APP that replaces web2py’s admin. This is a web IDE for uploading/managing/editing apps."
+msgstr "PY4WEB viene con una APP Dashboard che sostituisce l'admin di web2py. Questa è una IDE per caricare/gestire/modificare le app."
+
+#: ../../chapter-00.rst:80
+msgid "PY4WEB’s Dashboard includes a web based database interface. This replaces the appadmin functionality of web2py."
+msgstr "La Dashboard di PY4WEB include un'interfaccia al database basata sul web. Questo sostituisce la funzionalità appadmin di web2py."
+
+#: ../../chapter-00.rst:82
+msgid "PY4WEB comes with a Form object that is similar to web2py’s SQLFORM but it is much simpler and faster. The syntax is the same. This has been provided in order to help users port existing apps; but PY4WEB encourages using API based forms over postbacks."
+msgstr ""
+"PY4WEB viene con un oggetto FORM che è molto simile al SQLFORM di web2py ma è molto più semplice e veloce. La sintassi è la stessa. Questo è stato fornito al fine di aiutare gli utenti a fare il porting delle app esistenti; ma PY4WEB incoraggia l'uso di moduli basati su "
+"API ai postback."
+
+#: ../../chapter-00.rst:86
+msgid ""
+"PY4WEB comes with an Auth object that replaces the web2py one. It is more modular and easier to extend. Out of the box, it provides the basic functionality of register, login, logout, change password, request change password, edit profile as well as integration with PAM, "
+"SAML2, LDAP, OAUTH2 (google, facebook, and twitter)."
+msgstr "PY4WEB viene con un oggetto AUTH che sostituisce quello di web2py. Sono già previste le funzionalità di registrazione, login, logout, cambio password, modifica profilo, così come l'integrazione con PAM, SAML2, LDAP, OAUTH2 (google, facebook e twitter)."
+
+#: ../../chapter-00.rst:91
+msgid "PY4WEB comes with some utilites like “tags”, for instance, which allows adding searchable tags to any database table. It can be used, for example, to tag users with groups and search users by groups and apply permissions based on membership."
+msgstr ""
+"PY4WEB viene con alcune utilità, come ad esempio i \"tag\", che permettono di aggiungere etichette ricercabili a qualsiasi tabella di database. Questa funzionalità può essere usata, per esempio, per taggare gli utenti con i gruppi e ricercare gli utenti per gruppi ed "
+"applicare autorizzazioni basate sull'appartenenza ad un gruppo."
+
+#: ../../chapter-00.rst:95
+msgid ""
+"PY4WEB comes with with some custom Vue.js components designed to interact with the PyDAL RESTAPI, and with PY4WEB in general. These APIs are designed to allow the server to set policies about which operations a client is allowed to perform, but give the client flexibility "
+"within those constraints. The two main components are mtable (which provides a web based interface to the database similar to web2py’s grid) and auth (a customizable interface to the Auth API)."
+msgstr ""
+"PY4WEB viene con alcuni componenti personalizzati di Vue.js progettati per interagire con le RESTAPI di PyDAL e con PY4WEB in generale. Queste API sono progettate per consentire al server di impostare dei criteri su quali operazioni un client è autorizzato ad eseguire, ma "
+"offrono al client flessibilità all'interno di quei vincoli. I due componenti principali sono mtable (che formisce un'interfaccia basata sul web per il database simile alla griglia di web2py) e auth (un'interfaccia personalizzabile all'API Auth)."
+
+#: ../../chapter-00.rst:104
+msgid "The goal of PY4WEB is and remains the same as web2py’s: to make web development easy and accessible, while producing applications that are fast and secure."
+msgstr "L'obiettivo di PY4WEB è e rimane lo stesso di quello di web2py: rendere lo sviluppo web facile e accessibile, e nel contempo produrre applicazioni che siano veloci e sicure."
